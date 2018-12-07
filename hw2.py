@@ -83,7 +83,7 @@ def sort_time(num):  # max length of lists we want to sort (10^num). would not g
             avg_m += time2
         quick.append(avg_q/n)
         merge.append(avg_m/n)
-        print('quick_sort = %04.6f  merge_sort = %2.6f  q/m = %5.6f length list = %1d' % (avg_q/n, avg_m/n, avg_m/avg_m, 10**i))
+        print('quick_sort = %04.6f  merge_sort = %2.6f  q/m = %5.6f length list = %1d' % (avg_q/n, avg_m/n, avg_q/avg_m, 10**i))
 
 # plotting the data
     plt.subplot(211)
