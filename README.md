@@ -1,8 +1,8 @@
 # HW2
-##pcsII_homework
+## pcsII_homework
 
 This is an assignment for my PCS II class.
-The goal is to time quick_sort algorithm and merge_sort on randomly generated lists of length 10, 100, 1000, 10000… 
+The goal is to time `quick_sort` algorithm and `merge_sort` on randomly generated lists of length 10, 100, 1000, 10000… 
 `sort_time()` will time `quick_sort` and `merge_sort` on the same data, i.e. sorting the same list.
 For each list length (10, 100, 1000…) we time the algorithms of 5 different lists and get an average.
 Finally, the times for the various test are plotted against each other on the top plot in a normal scale and on the bottom plot on a log scale.
